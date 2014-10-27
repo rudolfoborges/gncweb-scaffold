@@ -1,0 +1,7 @@
+{
+	"module.js": "src/main/webapp/assets/js/{%= module_name %}.js",
+	"controller.js": "src/main/webapp/assets/js/controllers/{%= controller_name %}.js",
+	"service.js": "src/main/webapp/assets/js/services/{%= service_name %}.js",
+	"search.html": "src/main/webapp/partials/pages/{%= lower_model_name %}/search{%= model_name %}.html",
+	"create.html": "src/main/webapp/partials/pages/{%= lower_model_name %}/create{%= model_name %}.html"
+}
